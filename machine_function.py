@@ -36,7 +36,7 @@ class Machine():
             return None
 
 
-    ##### Technician identification
+    ##### Technician possibilities
     def indentification(self):
         my_password = input("Please, Enter the identication code\n")
         if my_password == self.code_identification:
